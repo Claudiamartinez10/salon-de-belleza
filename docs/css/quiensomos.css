@@ -1,0 +1,43 @@
+/*SELECTOR UNIVERSAL*/
+:root {
+    --color: red;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body {
+    background-color: rgb(189, 33, 206);
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 9px 5px 78px 17px rgba(108, 0, 209, 0.75);
+    -webkit-box-shadow: 9px 5px 78px 17px rgba(98, 0, 209, 0.75);
+    -moz-box-shadow: 9px 5px 78px 17px rgba(42, 0, 209, 0.75);
+    border: 15px double rgb(115, 255, 0);
+}
+
+img {
+    text-align: justify;
+    border-style:dashed;
+    border: 5px solid rgb(0, 23, 128);
+}
+h2 {
+    background-color: rgb(234, 130, 78);
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    border-style: dashed;
+    display: block;
+}

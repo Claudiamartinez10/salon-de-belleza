@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/contacto.jpg" type="image/jpg">
+    <link rel="stylesheet" href="css/contactanos.css">
+    <title>CONTACTANOS</title>
+</head>
+<body>
+    <header>
+        <h1>AGENDAR  CITA</h1>
+    </header>
+    <div class="formulario">
+        <h2>DATOS PERSONALES </h2>
+        <form action="">
+                    <form name="formulario" method="GET" action="/send.php"></form>
+                    <label for="">Nombres:</label>
+                    <input type="text" name="nombre" placeholder="Escriba aqui..." spellcheck="false" size="50"
+                        autofocus autocomplete="on" required />
+                    <br /><br />
+                    <label for="">Apellidos:</label>
+                    <input type="text" name="apellidos" placeholder="Escriba aqui..." spellcheck="false" />
+                    <br /><br />
+                    <label for="">Edad:</label>
+                    <input type="number" name="edad" placeholder="Escriba su edad..." spellcheck="false" required
+                        minlength="18" maxlength="100" />
+                    <br /><br />
+                    <label for="">Teléfono:</label>
+                    <input type="tel" name="telfono" placeholder="Escriba su telefono..." spellcheck="false" />
+                    <br /><br />
+                    <label for="">Correo:</label>
+                    <input type="email" name="email" placeholder="Escriba su email..." spellcheck="false" />
+                    <br /><br />
+                    <label for="">fecha:</label>
+                    <input type="date" name="" placeholder="..." spellcheck="false" />
+                    <br /><br />
+                    <label for="">Hora:</label>
+                    <input type="time" name="" placeholder="..." spellcheck="false" />
+                    <br /><br />
+
+                    <label for="">Sexo:</label>
+                    <input type="radio" name="sexo" value="H" /> Hombre
+                    <input type="radio" name="sexo" value="M" /> Mujer
+                    <input type="radio" name="sexo" value="N" /> Prefiero no Decirlo
+                    <br /><br />
+
+                    <label for="">Comentario:</label>
+                    <textarea name="" cols="12" rows="5"> </textarea>
+
+                    <br /><br />
+            <button>Enviar</button>
+        </form>
+
+        <section>
+            <h2>Puedes comunicarte por medio de redes cosiales </h2>
+            <ul>
+                <li><a href="https://es-la.facebook.com/violetasalon/"><i class="fa-brands fa-facebook"></i> FACEBOOK</a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=50372828282&text=%C2%BFHola%20me%20gustaria%20conocer%20mas%20de%20su%20producto%20de%20belleza?"><i
+                            class="fa-brands fa-whatsapp"></i> WHATSAPP</a>
+                </li>
+                <li><a href="https://twitter.com/violecolor?lang=es"><i class="fa-brands fa-twiter"></i> TWITTER</a></li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+/*SELECTOR UNIVERSAL*/
+:root {
+    --color: red;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body {
+    background-color: rgb(33, 171, 206);
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 9px 5px 78px 17px rgba(108, 0, 209, 0.75);
+    -webkit-box-shadow: 9px 5px 78px 17px rgba(98, 0, 209, 0.75);
+    -moz-box-shadow: 9px 5px 78px 17px rgba(42, 0, 209, 0.75);
+    border: 15px double rgb(0, 255, 106);
+}
+
+img {
+    text-align: center;
+    border-style:dashed;
+    border: 5px solid rgb(0, 128, 49);
+}
+p {
+    text-align: justify;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+ul li {
+    background-color: blue;
+    color: black;
+}
+.li {
+    background-color: red;
+}
+.li2{
+   
+    background-color: blueviolet;
+}
+.li3{
+    background-color: chocolate;
+}
+.li5{
+    background-color: yellowgreen;
+}

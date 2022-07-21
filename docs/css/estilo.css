@@ -1,0 +1,119 @@
+/*SELECTOR UNIVERSAL*/
+:root {
+    --color: red;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    background-image: url(../img/fondo.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body {
+    background-color: rgb(87, 213, 235);
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 9px 5px 78px 17px rgba(209, 0, 138, 0.75);
+    -webkit-box-shadow: 9px 5px 78px 17px rgba(209, 0, 138, 0.75);
+    -moz-box-shadow: 9px 5px 78px 17px rgba(209, 0, 138, 0.75);
+    border: 15px double blue;
+}
+h2 {
+    background-color: khaki;
+    color: black;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+.encabezado {
+    background-color: var(--color);
+    border-radius: 20px;
+    border-style: groove;
+}
+
+img {
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+nav ul li {
+    align-content: center;
+    display: inline-flex;
+    background-color: rgb(94, 108, 170);
+    color: white;
+    text-decoration: none;
+    border-style: dotted;
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    font-weight: 900;
+    color: aquamarine;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: rgb(222, 45, 45);
+    color: black;
+}
+
+.encabezado div {
+    text-align: center;
+}
+
+.noti {
+    background-color: antiquewhite;
+    text-align: center;
+
+}
+
+article h3 {
+    background-color: khaki;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    border-style: dashed;
+    display: block;
+}
+
+p {
+    text-align: center;
+    width: 30%;
+}
+
+ img {
+    text-align:left;
+    border-style: dotted;
+    border: 10px solid rgb(226, 209, 19);
+}
+
+@media screen and (max-width: 599px) {
+     nav ul li {
+        display: inline-block;
+        list-style: none;
+        display: block;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-weight: 900;
+        display: block;
+    }
+}
+section h3 {
+    border-style: dashed;
+    border-color: brown;
+}
